@@ -55,7 +55,7 @@ The project demonstrates good practice in:
 - 🗂️ **LDA topic modelling** (scikit-learn) with **Gensim c_v coherence scoring** to select and validate the topic count
 - 💬 **VADER sentiment analysis** producing per-country/per-region sentiment profiles
 - 🗺️ **Interactive Folium choropleth map** — click any country to see its mean sentiment and top-5 LDA topics
-- 📝 **Fully documented pilot** — every design decision, surprise, and error is logged with cause and resolution (see the [Appendix](Project/Appendix.md))
+- 📝 **Fully documented pilot** — every design decision, surprise, and error is logged with cause and resolution (see the [Appendix](https://github.com/SalemAlnaqbi/Real-Time-Geospatial-Analysis/blob/main/Research_Proposal_and_Pilot_Study.ipynb))
 
 ## 🔬 Research Objectives
 
