@@ -37,7 +37,7 @@ The pilot prototype maps mean sentiment per country and surfaces the top LDA top
 
 ## 🎯 Overview
 
-This repository contains an MSc research project proposal for **Data Mining and Text Analytics** (University of Leeds), together with a runnable pilot implementation that proves the core pipeline works end to end.
+This repository contains an MSc research project proposal for **Data Mining** course, together with a runnable pilot implementation that proves the core pipeline works end to end.
 
 Most published climate-discourse NLP research relies on Twitter/X data and English-only text — a static, single-platform, single-language view of a global conversation. This project targets the gap directly: it collects **multilingual** climate discourse from **Telegram**, the dominant civic messaging platform across the GCC, Eastern Europe, and South-East Asia, combines it with mainstream news coverage, and visualises how climate framing and sentiment vary **geographically** — updated from live data rather than a fixed snapshot.
 
@@ -272,7 +272,6 @@ The full 6-month project follows **CRISP-DM**, chosen because its iterative Data
 | 5. Evaluation | Expert usability + content-validity testing (SUS ≥ 70) | Month 5 | SUS + validity confirmed |
 | 6. Reporting | Final report, open-source release, conference draft | Month 6 | Final report submitted |
 
-Full risk analysis (three risks + mitigations per phase) is in [`Research_Proposal.md`](Project/Research_Proposal.md#6-programme-and-methodology).
 
 ## 👨‍💻 Author
 
@@ -283,7 +282,6 @@ Full risk analysis (three risks + mitigations per phase) is in [`Research_Propos
 
 ## 🙏 Acknowledgments
 
-- **Supervision:** Dr Noorhan Abbas, University of Leeds — Data Mining and Text Analytics
 - **Libraries:** [Telethon](https://github.com/LonamiWebs/Telethon) for Telegram data access, [scikit-learn](https://scikit-learn.org/) and [Gensim](https://radimrehurek.com/gensim/) for topic modelling, [VADER](https://github.com/cjhutto/vaderSentiment) for sentiment analysis, [Folium](https://python-visualization.github.io/folium/) for geospatial visualisation
 - **Data:** [GDELT Project](https://www.gdeltproject.org/) for planned news-discourse collection
 - **Prior work referenced:** Shiwakoti et al. (2024) ClimaConvo, Otmakhova and Frermann (2025) narrative framing, Song et al. (2025) moral foundations analysis — see [References](#-references)
