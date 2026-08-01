@@ -238,7 +238,6 @@ News APIs (GDELT) ───┘                                        │
 1. **Emoji saturation broke the standard NLTK tokeniser** — Telegram's far higher emoji density (vs. Twitter) fragmented emoji into 300+ non-semantic tokens until an emoji-to-text conversion step was added.
 2. **~30% of messages from climate-named channels were off-topic** — channel names/descriptions do not reliably predict content, requiring a dedicated Naive Bayes relevance-filtering stage not needed in any of the three reviewed baseline approaches.
 
-Full methodology, tuning steps, and reasoning are documented in [`Research_Proposal.md`](Project/Research_Proposal.md#5-pilot-study) and the [`Appendix`](Project/Appendix.md).
 
 ## 🌐 Interactive World Map
 
@@ -281,7 +280,6 @@ Full risk analysis (three risks + mitigations per phase) is in [`Research_Propos
 
 - GitHub: [@SalemAlnaqbi](https://github.com/SalemAlnaqbi)
 - LinkedIn: [salemalnaqbi](https://www.linkedin.com/in/salemalnaqbi/)
-- MSc Artificial Intelligence, University of Leeds — Data Mining and Text Analytics, supervised by Dr Noorhan Abbas
 
 ## 🙏 Acknowledgments
 
