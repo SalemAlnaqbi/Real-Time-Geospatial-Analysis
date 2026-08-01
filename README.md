@@ -205,7 +205,7 @@ News APIs (GDELT) ───┘                                        │
 **Key design decisions:**
 - **LDA over neural topic models (e.g. BERTopic):** CPU-only, deterministic given a fixed seed, and already achieves interpretable topics at pilot scale — no GPU dependency for a real-time pipeline
 - **VADER over multilingual transformers (e.g. XLM-RoBERTa):** rule-based, no fine-tuning corpus required, and fast enough for high-throughput streaming text
-- **Two-stage emoji handling:** emoji must be converted to text *before* tokenisation (or the tokeniser shreds them into byte fragments), and the resulting descriptions must then be filtered (or they pollute topic keywords) — see [Error 2](Project/Appendix.md#error-2-emojidemojize-converting-emoji-to-descriptions-that-then-appeared-as-lda-topic-words)
+- **Two-stage emoji handling:** emoji must be converted to text *before* tokenisation (or the tokeniser shreds them into byte fragments), and the resulting descriptions must then be filtered (or they pollute topic keywords).
 
 ## 📊 Pilot Study Results
 
