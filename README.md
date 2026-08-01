@@ -14,7 +14,7 @@ The pilot prototype maps mean sentiment per country and surfaces the top LDA top
 
 ![Pilot world map demo](Map_Gif.gif)
 
-> 📍 Open [`Project/pilot_map.html`](Project/pilot_map.html) directly in a browser, or run `python Project/pilot_map.py` to regenerate it locally.
+> 📍 Open [`Project/pilot_map.html`](https://github.com/SalemAlnaqbi/Real-Time-Geospatial-Analysis/blob/main/pilot_map.html) directly in a browser, or run `python Project/pilot_map.py` to regenerate it locally.
 
 ## 📋 Table of Contents
 
